@@ -29,7 +29,7 @@ class App extends Component {
       }
     ]
   }
-//toggle complete
+//toggle complete/incomplete
   markComplete = (id) => {
     this.setState({ todos: this.state.todos.map(todo=> {
       if(todo.id === id) {
