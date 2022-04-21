@@ -50,8 +50,6 @@ const btnStyle = {
 
 }
 
-  const itemStyle = {
-      backgroundColor: '#f4f4f4'
-  }
+
 
 export default TodoItem
